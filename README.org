@@ -1,0 +1,67 @@
+* Social Backups
+
+    This is a repository for information pertaining to backing up data
+    from social media sites and other 3rd party online services.
+    It may eventually contain automation tools, but at this point it's
+    just a checklist and some links.
+
+** Services
+
+*** Twitter
+
+**** archive
+
+     An archive of tweets is provided by Twitter. There is a button at
+     the bottom of the account settings page:
+
+     - https://twitter.com/settings/account
+     
+
+**** followers / following
+
+     This information is not included in the archive provided by
+     Twitter. It can be retrieved from the API, but this is
+     cumbersome and time-consuming processes. It would be nice to
+     automate with something like @sferik's `t` or the twitter gem.
+
+     - http://sferik.github.io/t/
+
+**** favorites
+
+     Same as followers / following
+
+*** Facebook
+
+    Facebook provides some kind of limited archive of your profile
+    data. 
+
+*** Google
+
+    Google provides a big archive of data from all of their services
+    through something called "Takeout".
+    
+*** Diigo
+
+    Diigo lets you export your bookmarks as CSV, RSS, Delicious, or a
+    couple different browser formats. I think that the RSS option
+    contains the most data, if I recall correctly.
+
+*** Digg (Reader)
+
+    Just started using this to replace Google Reader. No idea what I
+    can get back out yet. Presumably some kind of OPML at least.
+
+*** GoodReads
+
+    I have a bunch of info about my reading history and to-read lists
+    in here. Not sure what, if anything, can be easily exported.
+
+*** LibraryThing
+
+    At one point I started to catalog all of the physical books I own
+    in LT. I haven't used it in a while, but I imagine they're pretty
+    good about letting you export things again.
+
+*** ...
+    
+    I am almost certainly forgetting many, many, many things.
